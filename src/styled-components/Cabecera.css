@@ -1,10 +1,16 @@
 @import url('https://fonts.cdnfonts.com/css/arbutus');
 @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap');
 .cabecera {
+<<<<<<< HEAD
     display: flex; flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+=======
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+>>>>>>> 5cc4255 (Segundo diseño de cabecera)
     margin: 0 70px 0 70px;
     padding: 1rem 0 1rem 0;
     font-family: 'Arbutus', sans-serif;
@@ -33,6 +39,10 @@
     height: min-content;
     cursor: pointer;
     padding: 4px 8px 4px 8px;
+<<<<<<< HEAD
     background-color: #25D366;
+=======
+    background-color: #4D2004;
+>>>>>>> 5cc4255 (Segundo diseño de cabecera)
     color:white;
 }
