@@ -1,0 +1,167 @@
+@import url('https://fonts.cdnfonts.com/css/cristo-rey');
+@import url('https://fonts.cdnfonts.com/css/bamboo');
+
+*{
+    font-family: 'Arbutus', sans-serif;
+}
+
+.carousel-section{
+    position: relative;
+    background-color: #CAB2A3;
+}
+
+.carousel-titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.carousel-titulo h1{
+    z-index: 1;
+    text-align: center;
+    font-size: 8rem;
+    line-height: .9;
+}
+.carousel-titulo span{
+    z-index: 1;
+    color: #393939;
+    font-size: 3rem;
+}
+
+.carousel-reservar {
+    z-index: 1;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    gap: 4px;
+}
+
+.cactus {
+    z-index: 0;
+    max-width: 30%;
+    position: absolute;
+    bottom:-5%;
+    right:-5%;
+    overflow: hidden;
+}
+
+
+@media (max-width:1200px){
+    .cactus {
+        max-width: 35%;
+        bottom:-4%;
+        right:-12%;
+    } 
+}
+
+@media (max-width:900px){
+    .cactus {
+        max-width: 45%;
+        right:-20%;
+    } 
+    .carousel-titulo h1{
+        font-size: 3.5rem;
+    }
+    .carousel-titulo span{
+        font-size: 2.5rem;
+    }
+    
+}
+
+
+@media (max-width:450px){
+    .cactus {
+        max-width: 60%;
+        right:-30%;
+    } 
+    .carousel-titulo h1{
+        font-size: 3rem;
+    }
+    .carousel-titulo span{
+        font-size: 2rem;
+    }
+    .carousel-titulo{
+        min-height: 320px;
+    }
+
+}
+
+
+
+
+.carousel-slider {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+}
+.slider {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    transform-style:preserve-3d;
+    animation: rotate 40s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+    transform: perspective(1000px) rotateY(0deg);
+    } 
+    100% {
+    transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.slider span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
+}
+
+.slider span img { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit:cover;
+    transition: 2s;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:1450px){
+    .slider {
+        width: 175px;
+        height: 125px;
+    }
+    .slider span {
+        top: 0;
+        left: 0;
+        transform: rotateY(calc(var(--i)*45deg)) translateZ(300px);
+    }
+}
+
+@media (max-width:450px) {
+    .carousel-slider {
+        left: -10%;
+        bottom: -30%;
+    }
+    .slider {
+        width: 150px;
+        height: 100px;
+    }
+    .slider span {
+        transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
+    }
+    
+}
