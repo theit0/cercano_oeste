@@ -7,6 +7,7 @@
     margin: 0 70px 0 70px;
     padding: 1rem 0 1rem 0;
     font-family: 'Arbutus', sans-serif;
+    flex-wrap: wrap;
 }
 
 .cabecera-logo {
@@ -34,4 +35,23 @@
     padding: 4px 8px 4px 8px;
     background-color: #4D2004;
     color:white;
+    border-radius: 4px;
+}
+.cabecera-boton-reservar:hover {
+    background-color: #694f3d;
+}
+.cabecera-boton-reservar:active{
+    background-color: #4D2004;
+}
+
+@media (max-width:548px){
+    .cabecera-logo{
+        width: 150px;
+    }
+    
+    .cabecera {
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 0 35px 0 35px;
+    }
 }

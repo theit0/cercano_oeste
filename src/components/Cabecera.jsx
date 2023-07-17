@@ -5,7 +5,7 @@ export function Cabecera () {
     return (
         <section className='cabecera'> 
             <div className='cabecera-contenedor-logo'>
-                <img className='cabecera-logo' src={logo}/>
+                <a href='#'><img className='cabecera-logo' src={logo}/></a>
             </div>
             <article className='cabecera-contenedor-reservar'>
                 <span className='cabecera-texto-reservar'>¡Hace tu reserva!</span>
