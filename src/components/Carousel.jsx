@@ -40,11 +40,13 @@ export function Carousel () {
                     <img src={Cactus} alt='cactus' className='cactus'/>
                 </div>
             </section>
-            <aside className='carousel-slider'>
+            
+            {/* <aside className='carousel-slider'>
                 <div className='slider'>
                     {imagenesLista}
                 </div>
-            </aside> 
+            </aside>  */}
+            
         </section>
         
     )

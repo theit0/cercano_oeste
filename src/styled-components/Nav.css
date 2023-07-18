@@ -1,5 +1,166 @@
+*{
+    scroll-behavior: smooth;
+}
+
 .nav-section {
-    overflow: hidden;
+    position: relative;
     background-color: #9A7F6E;
-    min-height: 75vh;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.chubaca{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.nav-titulo-container{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-direction: column;
+    color: white;
+    line-height: 1.2;
+}
+
+.nav-title-1{
+    font-size: 3rem;
+}
+.nav-title-2{
+    font-size: 4rem;
+    overflow: hidden;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.nav-menu-lista{
+    text-align: center;
+    list-style: none;
+    background-color: #CAB2A3;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+
+.nav-menu-lista a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    box-sizing: content-box;
+    border: 2px solid black;
+    padding: 1.1rem;
+}
+
+.nav-menu-lista a:hover{
+    background-color: #e3c8b8;
+}
+
+.nav-menu-lista a:active{
+    background-color: #CAB2A3;
+}
+
+
+.cowboy {
+    border: 2px solid black;
+    width: 400px;
+}
+
+@media (max-width:1200px){
+    .chubaca {
+        max-width: 20%;
+    } 
+}
+
+@media (max-width:900px){
+    .cowboy{
+        position: static;
+        width: 375px;
+        height: 375px;
+    }
+    .chubaca {
+        max-width: 30%;
+        
+    } 
+    .nav-title-1{
+        font-size: 2rem;
+    }
+    .nav-title-2{
+        font-size: 3rem;
+    }
+    
+
+    .nav-menu-lista{
+        text-align: center;
+        list-style: none;
+        background-color: #CAB2A3;
+        width: 375px;
+        height: 375px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 3px solid black;
+    }
+    
+    
+    .nav-menu-lista a{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        flex-grow: 1;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:790px){
+        .cowboy{
+            width: 300px;
+            height: 350px;
+        }
+        
+        .nav-menu-lista{
+            width: 300px;
+            height: 350px;
+        }
+        
+        .nav-menu-lista a{
+            font-size: .85rem;
+        }
+}
+
+@media (max-width:630px){
+        .nav-menu {
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-menu-lista{
+            border: 3px solid black;
+        }
+       
+}
+
+@media (max-width:450px){
+    .nav-section{
+        min-height: 200px;
+    }
+    .chubaca{
+        max-width: 50%;
+    } 
+    .nav-title-1{
+        font-size: 1.5rem;
+    }
+    .nav-title-2{
+        font-size: 2rem;
+    }
 }
