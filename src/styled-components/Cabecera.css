@@ -53,6 +53,6 @@
     .cabecera {
         justify-content: center;
         gap: 1.5rem;
-        margin: 0 35px 0 35px;
+        margin: 20px 35px 20px 35px;
     }
 }

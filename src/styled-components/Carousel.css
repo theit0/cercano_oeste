@@ -6,8 +6,10 @@
 }
 
 .carousel-section{
+    z-index: 0;
     position: relative;
     background-color: #CAB2A3;
+    overflow: hidden;
 }
 
 .carousel-titulo{
@@ -17,21 +19,19 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    
 }
 .carousel-titulo h1{
-    z-index: 1;
     text-align: center;
     font-size: 8rem;
     line-height: .9;
 }
 .carousel-titulo span{
-    z-index: 1;
     color: #393939;
     font-size: 3rem;
 }
 
 .carousel-reservar {
-    z-index: 1;
     text-align: center;
     display: grid;
     place-content: center;
@@ -39,14 +39,16 @@
 }
 
 .cactus {
-    z-index: 0;
     max-width: 30%;
     position: absolute;
     bottom:-5%;
     right:-5%;
-    overflow: hidden;
+    z-index: -1;
+    
 }
-
+.carousel-main{
+    position: relative;
+}
 
 @media (max-width:1200px){
     .cactus {
@@ -101,7 +103,7 @@
 }
 .slider {
     position: relative;
-    width: 250px;
+    width: 300px;
     height: 200px;
     transform-style:preserve-3d;
     animation: rotate 40s linear infinite;
