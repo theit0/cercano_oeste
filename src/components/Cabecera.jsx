@@ -8,10 +8,10 @@ export function Cabecera () {
                 <a href=''><img className='cabecera-logo' src={logo}/></a>
             </div>
             <article className='cabecera-contenedor-reservar'>
-                <span className='cabecera-texto-reservar'>¡Visistanos!</span>
-                <a href={'https://wa.me/542615463224'} className='cabecera-boton-reservar' target='_blank'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} class="icon icon-tabler icon-tabler-brand-whatsapp" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"></path></svg>
-                    +54 261 546-3224
+                <span className='cabecera-texto-reservar'>¡Visitanos!</span>
+                <a href={'https://goo.gl/maps/2eqc8rQexaPaHEgy6'} className='cabecera-boton-reservar' target='_blank'>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-share" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path><path d="M12.02 21.485a1.996 1.996 0 0 1 -1.433 -.585l-4.244 -4.243a8 8 0 1 1 13.403 -3.651"></path><path d="M16 22l5 -5"></path><path d="M21 21.5v-4.5h-4.5"></path></svg>
+                    UBICACIÓN
                 </a>
             </article>
         </section>

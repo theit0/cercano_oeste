@@ -6,10 +6,10 @@
 }
 
 .carousel-section{
-    z-index: 0;
     position: relative;
     background-color: #CAB2A3;
     overflow: hidden;
+    z-index: 0;
 }
 
 .carousel-titulo{
@@ -19,7 +19,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    
+    z-index: 1;
 }
 .carousel-titulo h1{
     text-align: center;
@@ -44,11 +44,13 @@
     bottom:-5%;
     right:-5%;
     z-index: -1;
-    
 }
 .carousel-main{
     position: relative;
 }
+
+
+
 
 @media (max-width:1200px){
     .cactus {
@@ -72,10 +74,9 @@
     
 }
 
-
 @media (max-width:450px){
     .cactus {
-        max-width: 60%;
+        max-width: 50%;
         right:-30%;
     } 
     .carousel-titulo h1{
@@ -89,9 +90,6 @@
     }
 
 }
-
-
-
 
 .carousel-slider {
     position: absolute;
