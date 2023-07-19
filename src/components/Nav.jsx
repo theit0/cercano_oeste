@@ -19,7 +19,6 @@ export function Nav () {
                         <a><li>Milanesas</li></a>
                         <a><li>Ensaladas</li></a>
                         <a><li>Hamburguesas</li></a>
-                        <a><li>Picadas</li></a>
                         <a><li>Empanadas</li></a>
                         <a><li>Ensaladas</li></a>
                         <a><li>Vegetariano</li></a>

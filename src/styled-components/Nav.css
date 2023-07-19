@@ -20,12 +20,13 @@
 }
 
 .nav-titulo-container{
+    font-family: 'Future West', sans-serif;
     position: relative;
     display: flex;
     overflow: hidden;
     white-space: nowrap;
     flex-direction: column;
-    color: white;
+    color: #58483e;
     line-height: 1.2;
 }
 
@@ -44,6 +45,7 @@
 }
 
 .nav-menu-lista{
+    font-family: 'Montelgo Sans Serif', sans-serif;
     text-align: center;
     list-style: none;
     background-color: #CAB2A3;

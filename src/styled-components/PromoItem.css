@@ -16,6 +16,7 @@
     border: 3px solid black;
     border-radius: 4px;
     gap: .5rem;
+    font-family: 'Montelgo Sans Serif', sans-serif;
 }
 
 .promoItem-container:hover{ 
@@ -23,15 +24,14 @@
 }
 
 .promoItem-titulo, .promoItem-precio {
-    font-family: 'Gravitas One', sans-serif;
     font-size: 2rem;
 }
 .promoItem-precio{
     color: #4D2004;
 }
 .promoItem-descr {
-    font-family: 'Antic Didone', sans-serif;
-    font-size: 1.5rem;
+    color: rgb(67, 67, 67);
+    font-size: 1rem;
 }
 
 @media (max-width:790px){

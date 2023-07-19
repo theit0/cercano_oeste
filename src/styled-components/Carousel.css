@@ -1,18 +1,20 @@
-@import url('https://fonts.cdnfonts.com/css/cristo-rey');
-@import url('https://fonts.cdnfonts.com/css/bamboo');
 
+@import url('https://fonts.cdnfonts.com/css/the-dead-saloon');
+@import url('https://fonts.cdnfonts.com/css/montelgo-sans-serif');
+@import url('https://fonts.cdnfonts.com/css/future-west');
 .carousel-section{
     position: relative;
     background-color: #CAB2A3;
     overflow: hidden;
     z-index: 0;
-    font-family: 'Arbutus', sans-serif;
+    font-family: 'Montelgo Sans Serif', sans-serif;
+    background-image: url('../assets/fondoDibujosMarron.png');
 }
 
 .carousel-titulo{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -21,11 +23,16 @@
 .carousel-titulo h1{
     text-align: center;
     font-size: 8rem;
-    line-height: .9;
+    line-height: 1.1;
+    font-family: 'the dead saloon', sans-serif;
 }
-.carousel-titulo span{
-    color: #393939;
-    font-size: 3rem;
+.carousel-container-titulo span{
+    color: #4D2004;
+    font-size: 2rem;
+}
+
+.carousel-container-titulo{
+    text-align: center;
 }
 
 .carousel-reservar {
@@ -46,6 +53,14 @@
     position: relative;
 }
 
+.wanted {
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    max-width: 20%;
+    transform: rotateZ(-30deg);
+    z-index: -1;
+}
 
 
 
@@ -54,6 +69,9 @@
         max-width: 35%;
         bottom:-4%;
         right:-12%;
+    } 
+    .wanted {
+        max-width: 25%;
     } 
 }
 
@@ -65,9 +83,12 @@
     .carousel-titulo h1{
         font-size: 3.5rem;
     }
-    .carousel-titulo span{
-        font-size: 2.5rem;
+    .carousel-container-titulo span{
+        font-size: 1rem;
     }
+    .wanted {
+        max-width: 30%;
+    } 
     
 }
 
@@ -78,9 +99,6 @@
     } 
     .carousel-titulo h1{
         font-size: 3rem;
-    }
-    .carousel-titulo span{
-        font-size: 2rem;
     }
     .carousel-titulo{
         min-height: 320px;
@@ -162,3 +180,5 @@
     }
     
 }
+
+
