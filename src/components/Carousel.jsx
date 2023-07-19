@@ -29,7 +29,7 @@ export function Carousel () {
             <section className='carousel-section'>
                 <div className='carousel-titulo'>
                     <div className='carousel-container-titulo'>
-                        <span>Conocé</span> 
+                        <span>Explorá.</span> 
                         <h1>CERCANO <br/> OESTE</h1>
                     </div>
                     <div className='carousel-reservar'>
