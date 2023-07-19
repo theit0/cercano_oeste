@@ -5,7 +5,7 @@ export function Nav () {
     return (
         <section className='nav-section'>
             <div className='nav-titulo-container'>
-                <span className='nav-title-1'> CARTA · CARTA · CARTA · CARTA · CARTA · CARTA · CARTA</span>
+                <span className='nav-title-1'> CARTA · CARTA · CARTA · CARTA · CARTA · CARTA · CARTA · CARTA · CARTA</span>
                 <span className='nav-title-2'>CARTA · CARTA · CARTA · CARTA · CARTA · CARTA </span>
             </div>
             <div className='nav-menu'>

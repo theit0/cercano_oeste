@@ -1,15 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/cristo-rey');
 @import url('https://fonts.cdnfonts.com/css/bamboo');
 
-*{
-    font-family: 'Arbutus', sans-serif;
-}
-
 .carousel-section{
     position: relative;
     background-color: #CAB2A3;
     overflow: hidden;
     z-index: 0;
+    font-family: 'Arbutus', sans-serif;
 }
 
 .carousel-titulo{
