@@ -9,6 +9,9 @@ export function Hamburguesas () {
     ]
         
     return (
-        <Productos producto={hamburguesas} tipoProductoNombre='HAMBURGUESAS'/>
+        <div id='hamburguesas'>         
+            <Productos producto={hamburguesas} tipoProductoNombre='HAMBURGUESAS' />
+        </div>
+        
     )
 }

@@ -11,6 +11,8 @@ export function Milanesas () {
     ]
         
     return (
-        <Productos producto={milanesas} tipoProductoNombre='MILANESAS'/>
+        <div id='milanesas'>         
+            <Productos producto={milanesas} tipoProductoNombre='MILANESAS'/>
+        </div>
     )
 }

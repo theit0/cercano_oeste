@@ -11,6 +11,9 @@ export function Lomos () {
     ]
         
     return (
-        <Productos producto={lomos} tipoProductoNombre='LOMOS'/>
+        <div id='lomos'>         
+            <Productos producto={lomos} tipoProductoNombre='LOMOS' />
+        </div>
+        
     )
 }

@@ -13,16 +13,15 @@ export function Nav () {
                 <div>
                     <ul className='nav-menu-lista'>
                         <a href='#promo'><li>Promociones</li></a>
-                        <a><li>Lomos</li></a>
-                        <a><li>Pizzas</li></a>
-                        <a><li>Bebidas</li></a>
-                        <a><li>Milanesas</li></a>
-                        <a><li>Ensaladas</li></a>
-                        <a><li>Hamburguesas</li></a>
-                        <a><li>Empanadas</li></a>
-                        <a><li>Ensaladas</li></a>
-                        <a><li>Vegetariano</li></a>
-                        <a><li>Cafetería</li></a>
+                        <a href='#lomos'><li>Lomos</li></a>
+                        <a href='#pizzas'><li>Pizzas</li></a>
+                        <a href='#bebidas'><li>Bebidas</li></a>
+                        <a href='#milanesas'><li>Milanesas</li></a>
+                        <a href='#ensaladas'><li>Ensaladas</li></a>
+                        <a href='#hamburguesas'><li>Hamburguesas</li></a>
+                        <a href='#empanadas'><li>Empanadas</li></a>
+                        <a href='#vegetariano'><li>Vegetariano</li></a>
+                        <a href='#cafeteria'><li>Cafetería</li></a>
                     </ul>
                 </div>
             </div>

@@ -9,6 +9,9 @@ export function Pizzas () {
     ]
         
     return (
-        <Productos producto={pizzas} tipoProductoNombre='PIZZAS'/>
+        <div id='pizzas'> 
+            <Productos producto={pizzas} tipoProductoNombre='PIZZAS' />
+        </div>
     )
 }
+

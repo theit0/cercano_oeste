@@ -13,6 +13,9 @@ export function Empanadas () {
     ]
         
     return (
-        <Productos producto={empanadas} tipoProductoNombre='EMPANADAS'/>
+        <div id='empanadas'>         
+            <Productos producto={empanadas} tipoProductoNombre='EMPANADAS' />
+        </div>
+        
     )
 }

@@ -10,6 +10,9 @@ import { Milanesas } from "./components/MIlanesas";
 import { Hamburguesas } from "./components/Hamburguesas";
 import { Empanadas } from "./components/Empanadas";
 import { Vegetariano } from "./components/Vegetariano";
+import { Ensaladas } from "./components/Ensaladas";
+import { Bebidas } from "./components/Bebidas";
+import { Cafeteria } from "./components/Cafeteria";
 export function App () {
     return(
         <React.Fragment>
@@ -23,6 +26,9 @@ export function App () {
             <Hamburguesas/>
             <Empanadas/>
             <Vegetariano/>
+            <Ensaladas/>
+            <Bebidas/>
+            <Cafeteria/>
         </React.Fragment>
     )
 }
