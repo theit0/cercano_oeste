@@ -1,13 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/arbutus');
 @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap');
+
 .cabecera {
-    display: flex; flex-direction: column;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-between;
     margin: 0 70px 0 70px;
     padding: 1rem 0 1rem 0;
-    font-family: 'Arbutus', sans-serif;
+    font-family: 'Montelgo Sans Serif', sans-serif;
+    flex-wrap: wrap;
 }
 
 .cabecera-logo {
@@ -33,6 +34,25 @@
     height: min-content;
     cursor: pointer;
     padding: 4px 8px 4px 8px;
-    background-color: #25D366;
+    background-color: #4D2004;
     color:white;
+    border-radius: 4px;
+}
+.cabecera-boton-reservar:hover {
+    background-color: #694f3d;
+}
+.cabecera-boton-reservar:active{
+    background-color: #4D2004;
+}
+
+@media (max-width:548px){
+    .cabecera-logo{
+        width: 150px;
+    }
+    
+    .cabecera {
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 20px 35px 20px 35px;
+    }
 }

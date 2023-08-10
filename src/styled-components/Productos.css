@@ -1,0 +1,86 @@
+.producto-main{
+    min-height: 100vh;
+    background-image: url('../assets/fondoDibujos.png');
+    display: grid;
+    place-content: center;
+}
+.producto-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+.producto-info{
+    font-family: 'Montelgo Sans Serif', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background-color: white;
+    padding:1rem;
+    text-align: center;
+    height: 35%;
+
+}
+
+.producto-info-titulo, .producto-info-precio {
+    font-size: 2rem;
+}
+
+.producto-info-precio{
+    color: #4D2004;
+}
+
+.producto-titulo{
+    text-align: center;
+}
+
+.producto-titulo span{
+    font-family: 'Future West', sans-serif;
+    font-size: 4rem;
+}
+
+.productos {
+    padding: 2rem 0 2rem 0;
+    margin: 0 70px 0 70px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.producto-container-imagen {
+    height: 65%;
+}
+.producto-imagen {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+
+@media (max-width:790px){
+    .productos {
+        margin: 0 30px 0 30px;
+    }
+    .producto-titulo span{
+        font-size: 1.5rem;
+    }
+    
+    .producto-container{
+        width: 200px;
+    }
+    .producto-info-titulo,.producto-info-precio{
+        font-size: 1rem;
+    }
+    
+    .producto-info-descr {
+        font-size: 12px;
+    }
+    .producto-imagen {
+        height: 350px;
+    }
+    
+}

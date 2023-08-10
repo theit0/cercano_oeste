@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/gravitas-one');
+@import url('https://fonts.cdnfonts.com/css/antic-didone');
+
+
+.promoItem-container{ 
+    cursor: pointer;
+    text-align: center;
+    width: 370px;
+    height: 370px;
+    background-color: #CAB2A3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border: 3px solid black;
+    border-radius: 4px;
+    gap: .5rem;
+    font-family: 'Montelgo Sans Serif', sans-serif;
+}
+
+.promoItem-container:hover{ 
+    background-color: #e3c8b8;
+}
+
+.promoItem-titulo, .promoItem-precio {
+    font-size: 2rem;
+}
+.promoItem-precio{
+    color: #4D2004;
+}
+.promoItem-descr {
+    color: rgb(67, 67, 67);
+    font-size: 1rem;
+}
+
+@media (max-width:790px){
+    .promoItem-container{
+        width: 200px;
+        height: 200px;
+    }
+    .promoItem-titulo,.promoItem-precio{
+        font-size: 1rem;
+    }
+    
+    .promoItem-descr {
+        font-size: 12px;
+    }
+}
